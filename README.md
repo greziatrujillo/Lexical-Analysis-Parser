@@ -98,17 +98,17 @@ Once the file has been loaded and the message ***true***. is received, you can b
 
 Some of the inputs and outputs include:
 
-**?- parseThru(immaterial).<br/>
-true.**
+?- parseThru(immaterial).<br/>
+true.
 
-**?- parseThru(hello).<br/>
-false.**
+?- parseThru(hello).<br/>
+false.
 
-**?- parseThru(dominion).<br/>
-true.**
+?- parseThru(dominion).<br/>
+true.
 
-**?- parseThru(mathematics).<br/>
-false.**
+?- parseThru(mathematics).<br/>
+false.
 
 ## Tests
 For further view into testing, the file regex_test.py contains all the cases tested for regular expressions. Additionally, the file automata_test.pl contains all the cases tested for the automaton.
