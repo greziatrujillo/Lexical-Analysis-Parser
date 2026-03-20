@@ -31,9 +31,10 @@ The implementation of this lexical analysis project will be further explored usi
 A singular automaton has been designed where depending on the start, the DFA would either identify *domin* or *mater*. This automaton will only accept the following alphabet:  <br/>
 
 
-Σ = *d, o, m, i, n, a, t, e , r*  
+Σ = *d, o, m, i, n, a, t, e , r* <br/> 
 
-![image]()
+![generated automaton](DFA.png "DFA")<br/>
+
 
 Important to note that there are fallbacks to prevent the parser from crashing. For example, if there is a word with *mater* but it has double m, there is a way to continue searching. Likewise with *domin*. Similarly, if we start with d or m but the continuation will not lead to the respective roots, the parser is sent to the beginning so as not to completely crash.<br/>
 
