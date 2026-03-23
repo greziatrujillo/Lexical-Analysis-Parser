@@ -1,12 +1,12 @@
 # E1 Lexical Analysis Parser
 
 ## Description
-For this project, a lexical analysis parser which can correctly detect the following roots in any word with its respective variations has been generated: <br/>
+In this project, a lexical analysis parser which can correctly detect the following roots in any word with its respective variations has been generated: <br/>
 
 + *mater*, meaning mother or maternal
 + *domin*, meaning master
 
-Both sets are derived from Latin and can be used within words. This project is meant to design a DFA, or multiple, that will only accept words with those roots, whether it be as a prefix, suffix, or within the word itself, essentially establishing a language which only accepts  words with *domin* or *mater*.
+Both sets are derived from Latin. This project is meant to design a DFA, or multiple, that will only accept words with those roots, whether it be as a prefix, a suffix, or within the word itself, essentially establishing a language which only accepts words with *domin* or *mater*.
 
 ### DFA
 The foundation of this project begins with the design of a deterministic finite automaton (DFA), or a "computational device whose input is a string and whose output is one of two
